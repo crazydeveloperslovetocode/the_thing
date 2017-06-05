@@ -11,7 +11,10 @@ var server = http.createServer(function (request, response) {
 });
 
 // Listen on port 8000, IP defaults to 127.0.0.1
-server.listen(process.env.PORT || 5000);
+const port = process.env.PORT || 5000
+server.listen(port);
+
+
 
 // Put a friendly message on the terminal
-console.log("Server running at http://127.0.0.1:8000/");
+console.log("Server running at http://127.0.0.1:/"+port);
