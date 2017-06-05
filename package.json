@@ -1,0 +1,11 @@
+{
+  "name": "the_thing",
+  "version": "0.0.1",
+  "engines": {
+    "npm": "2.1.x",
+    "node": "6.9.4"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
